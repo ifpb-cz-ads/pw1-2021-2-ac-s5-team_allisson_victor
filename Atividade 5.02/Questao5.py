@@ -17,7 +17,7 @@ operacao = int(input("Escolha uma das opções : "))
 if operacao == 1:
     soma = num1 + num2
     print("A soma dos numero é %d"%soma)
-if operacao == 2:
+elif operacao == 2:
     subtrair = num1 - num2
     print("A subtrair dos numero é %d"%subtrair)
 elif operacao == 3:
